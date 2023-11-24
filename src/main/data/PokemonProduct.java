@@ -7,7 +7,7 @@ public class PokemonProduct {
     private String price;
 
     // getters and setters omitted for brevity...
-
+    // defining getters and setters
     public void setUrl(String url){
         this.url = url;
     }
