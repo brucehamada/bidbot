@@ -48,6 +48,7 @@ public class UpworkJob {
                 printJob(upworkJob);
             } else {
                 System.out.println("Error: " + response.statusCode());
+                // error:403 occured.
             }
         }catch(IOException e){
             e.printStackTrace();
