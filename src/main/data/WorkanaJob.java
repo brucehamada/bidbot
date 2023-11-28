@@ -57,18 +57,18 @@ public class WorkanaJob {
         this.subcategory=subcategory;
     }
 
-    @Override
-    public String toString () {
-        return "{ \"title\":\"" + title + "\", "
-                + "\"pubtime\":\"" + pubtime + "\", "
-                + "\"budget\":\"" + budget + "\", "
-                + "\"description\":\"" + description + "\", "+
-                "\"skillset\":\"" + skillset + "\"," +
-                "\"category\":\"" + category + "\"," +
-                "\"subcategory\":\"" + subcategory + "\"," +
-                " }";
-
-    }
+//    @Override
+//    public String toString () {
+//        return "{ \"title\":\"" + title + "\", "
+//                + "\"pubtime\":\"" + pubtime + "\", "
+//                + "\"budget\":\"" + budget + "\", "
+//                + "\"description\":\"" + description + "\", "+
+//                "\"skillset\":\"" + skillset + "\"," +
+//                "\"category\":\"" + category + "\"," +
+//                "\"subcategory\":\"" + subcategory + "\"," +
+//                " }";
+//
+//    }
     public static void printJob(WorkanaJob workanaJob){
         System.out.println("Title " +" : "+workanaJob.getTitle());
         System.out.println("Pubtime " +" : "+workanaJob.getPubtime());
