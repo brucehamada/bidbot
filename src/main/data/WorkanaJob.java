@@ -77,6 +77,7 @@ public class WorkanaJob {
         System.out.println("Skills " +" : "+workanaJob.getSkillset());
         System.out.println("Category "+" : "+workanaJob.getCategory());
         System.out.println("Subcategory "+" : "+workanaJob.getSubcategory());
+        //print
     }
     public static void main(String[] args){
         Document doc;
